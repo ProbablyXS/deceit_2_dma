@@ -13,12 +13,12 @@ To Update: Unless a major update is pushed only the GWorld will need updating wh
 All the other offsets are labelled with their class name and fieldname, just search for them in an sdk dump. 
 
 ## Features
-* Survivor ESP
+* Human ESP
   * Name
   * Distance
   * Font Size
   * Max Distance
-* Killer ESP
+* Infected ESP
   * Name
   * Distance
   * Font Size
