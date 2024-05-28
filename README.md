@@ -1,5 +1,5 @@
 # DMADeceit2
-Simple Survivor And Killer ESP For Dead By Daylight
+Simple Human And Infected ESP For Deceit 2
 
 ## Showcase
 ![image](https://github.com/ProbablyXS/deceit_2_dma/assets/99107085/5d3daa1d-38e7-47b8-b6a5-a427b9bcbf7a)
