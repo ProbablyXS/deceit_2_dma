@@ -2,22 +2,8 @@
 Simple Survivor And Killer ESP For Dead By Daylight
 
 ## Showcase
-<p align="Left">
-  <img src="Images/5.png"
-    style="width: 35%;" />
-</p>
-<a href="https://youtu.be/zNhYCNFIo1M">
-<p align="Left">
-  <img src="Images/1.png" alt="Play Video" width="1280" height="540">
-</p>
-</a>
-<p align="Left">
-  <img src="Images/2.png" alt="Play Video" width="1280" height="540">
-</p>
-<p align="Left">
-  <img src="Images/4.png"
-    style="width: 100%;" />
-</p>
+![image](https://github.com/ProbablyXS/deceit_2_dma/assets/99107085/5d3daa1d-38e7-47b8-b6a5-a427b9bcbf7a)
+
 
 ## Instructions
 * [Installation Guide](./Instructions.md)
