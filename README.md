@@ -2,6 +2,8 @@
 Simple Human And Infected ESP For Deceit 2
 
 ## Showcase
+![image](https://github.com/ProbablyXS/deceit_2_dma/assets/99107085/90c53744-2c50-4ee2-8286-0376b7ee85e0)
+
 ![image](https://github.com/ProbablyXS/deceit_2_dma/assets/99107085/5d3daa1d-38e7-47b8-b6a5-a427b9bcbf7a)
 
 
