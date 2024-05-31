@@ -76,7 +76,7 @@ void Engine::Cache()
 	{
 		entity->SetUp2();
 
-		if (entity->GetName() == LIT(L"Entity"))
+		if (entity->GetCharacterName() == LIT(L"Entity"))
 			continue;
 		if(entity->GetPosition() == Vector3::Zero())
 		    continue;

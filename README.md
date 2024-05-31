@@ -1,11 +1,23 @@
-# DMADeceit2
-Simple Human And Infected ESP For Deceit 2
+# DMAByDaylight
+Simple Survivor And Killer ESP For Dead By Daylight
 
 ## Showcase
-![image](https://github.com/ProbablyXS/deceit_2_dma/assets/99107085/90c53744-2c50-4ee2-8286-0376b7ee85e0)
-
-![image](https://github.com/ProbablyXS/deceit_2_dma/assets/99107085/5d3daa1d-38e7-47b8-b6a5-a427b9bcbf7a)
-
+<p align="Left">
+  <img src="Images/5.png"
+    style="width: 35%;" />
+</p>
+<a href="https://youtu.be/zNhYCNFIo1M">
+<p align="Left">
+  <img src="Images/1.png" alt="Play Video" width="1280" height="540">
+</p>
+</a>
+<p align="Left">
+  <img src="Images/2.png" alt="Play Video" width="1280" height="540">
+</p>
+<p align="Left">
+  <img src="Images/4.png"
+    style="width: 100%;" />
+</p>
 
 ## Instructions
 * [Installation Guide](./Instructions.md)
@@ -15,12 +27,12 @@ To Update: Unless a major update is pushed only the GWorld will need updating wh
 All the other offsets are labelled with their class name and fieldname, just search for them in an sdk dump. 
 
 ## Features
-* Human ESP
+* Survivor ESP
   * Name
   * Distance
   * Font Size
   * Max Distance
-* Infected ESP
+* Killer ESP
   * Name
   * Distance
   * Font Size

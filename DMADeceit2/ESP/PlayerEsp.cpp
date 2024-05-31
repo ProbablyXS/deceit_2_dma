@@ -22,7 +22,7 @@ void DrawPlayerEsp()
 		if (entity->GetPosition() == Vector3(0, 0, 0))
 			continue;
 		PlayerConfig config = Configs.Survivor;
-		if (entity->GetPlayerRole() == EPlayerRole::EDeceitRole__Terror) config = Configs.Killer;
+		if (entity->GetPlayerRole() == true) config = Configs.Killer;
 
 		Vector2 screenpos = Camera::WorldToScreen(EngineInstance->GetCameraCache().POV, entity->GetPosition());
 		if (screenpos == Vector2::Zero())
@@ -32,10 +32,11 @@ void DrawPlayerEsp()
 		if (distance < 0)
 			continue;
 		std::wstring wdistance = config.Distance ? L"[" + std::to_wstring((int)distance) + L"m]" : L"";
-		std::wstring name = config.Name ? entity->GetName() : L"";
+		std::wstring name = config.Name ? entity->GetCharacterName() : L"";
 		if (distance > config.MaxDistance)
 			continue;
-		DrawText(screenpos.x, screenpos.y, name + wdistance, "Verdana", config.FontSize, config.TextColour, CentreCentre);
+		DrawText(screenpos.x, screenpos.y, name + L":" + wdistance, "Verdana", config.FontSize, config.TextColour, CentreCentre);
+		DrawText(screenpos.x, screenpos.y + 80, entity->GetPlayerName(), "Verdana", config.FontSize, config.TextColour, CentreCentre);
 	}
 	
 }
