@@ -7,21 +7,21 @@ class Engine
 {
 
 private:
-	uint64_t OwningActorOffset = 0x98; // NetConnection -> OwningActor //DONE
-	uint64_t MaxPacketOffset = 0xa0; // NetConnection -> MaxPacket //DONE
+	uint64_t OwningActorOffset = 0xA0; // UNetConnection -> OwningActor //DONE
+	uint64_t MaxPacketOffset = 0xA8; // UNetConnection -> MaxPacket //DONE
 	uint64_t OwningActor;
 	uint64_t MaxPacket;
-	uint64_t OwningGameInstance = 0x1b8; // World -> OwningGameInstance // DONE
+	uint64_t OwningGameInstance = 0x1D8; // World -> OwningGameInstance // DONE
 	uint64_t PersistentLevel = 0x30; // World  -> PersistentLevel //DONE
-	uint64_t GWorld = 0x8c86248; // DONE
+	uint64_t GWorld = 0x9387B78; // DONE
 	uint64_t LocalPlayers = 0x38; // GameInstance -> LocalPlayers //DONE
 	uint64_t PlayerController = 0x30; // Player -> PlayerController //DONE
-	uint64_t AcknowledgedPawn = 0x340; //DONE
+	uint64_t AcknowledgedPawn = 0x338; // PlayerController  -> AcknowledgedPawn //DONE
 
 
-	uint64_t CameraManager = 0x350; // PlayerController -> PlayerCameraManager //DONE
+	uint64_t CameraManager = 0x348; // PlayerController -> PlayerCameraManager //DONE
 	uint64_t CameraCachePrivate = 0x0; // PlayerCameraManager -> CameraCachePrivate //DONE
-	uint64_t CameraCachePrivateOffset = 0x1320; // PlayerCameraManager -> CameraCachePrivate //DONE
+	uint64_t CameraCachePrivateOffset = 0x1390; // PlayerCameraManager -> CameraCachePrivate //DONE
 
 
 	CameraCacheEntry CameraEntry; // ScriptStruct Engine.CameraCacheEntry //DONE

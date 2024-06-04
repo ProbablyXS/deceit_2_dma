@@ -12,7 +12,8 @@ enum class EPlayerRole : uint8_t
 	EDeceitRole__Inquisitor = 4,
 	EDeceitRole__Mimic = 5, 
 	EDeceitRole__Vector = 6,
-	EDeceitRole__Invalid = 7
+	EDeceitRole__Seer = 7,
+	EDeceitRole__Invalid = 8
 };
 
 enum class EDeceitCharacter : uint8_t {
@@ -70,14 +71,14 @@ private:
 	bool TerrorCosmetic;
 	EDeceitCharacter CharacterNameId;
 	uint64_t PlayerNameAddress;
-	uint64_t PlayerState = 0x2b8; // Pawn -> PlayerState
-	uint64_t AcknowledgedPawn = 0x340; // Pawn -> AcknowledgedPawn
+	uint64_t PlayerState = 0x2b0; // Pawn -> PlayerState
+	uint64_t AcknowledgedPawn = 0x338; // Pawn -> AcknowledgedPawn
 	uint64_t RootComponent = 0x1a0; // Actor -> RootComponent
 	uint64_t RelativeLocation = 0x128; // SceneComponent -> RelativeLocation
-	uint64_t GameRole = 0x660; // ADeceitPlayerState -> ChosenRole
-	uint64_t TerrorCosmeticOffset = 0x528; // is infected
-	uint64_t GameCharacterName = 0x518; // ADeceitPlayerState -> Character
-	uint64_t GamePlayerNameOffset = 0x330; // APlayerState -> PlayerNamePrivate
+	uint64_t GameRole = 0x658; // ADeceitPlayerState -> ChosenRole
+	uint64_t TerrorCosmeticOffset = 0x530; // is infected
+	uint64_t GameCharacterName = 0x510; // ADeceitPlayerState -> Character
+	uint64_t GamePlayerNameOffset = 0x328; // APlayerState -> PlayerNamePrivate
 	std::wstring CharacterName = LIT(L"Entity");
 	std::wstring PlayerName = LIT(L"Entity");
 	UEVector UEPosition;
